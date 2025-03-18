@@ -192,8 +192,7 @@ class _CoolStepperState extends State<CoolStepper> {
           child: Text(
             getNextLabel(),
             style: const TextStyle(
-              color: Colors.green,
-            ),
+ color: Theme.of(context).primaryColor,             ),
           ),
         ),
       ],
